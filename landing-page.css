@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #1f2937;
+  background-color: #6600ff;
   padding: 1em 13em;
 }
 
@@ -30,7 +30,7 @@ header {
 .secondary,
 a:link {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #00fffb;
     text-decoration: none;
 }
 .welcome {
@@ -53,7 +53,7 @@ a:link {
 }
 
 .hero {
-  color: #F9FAF8;
+  color: #80ff00;
   font-weight: 900;
   font-size: 48px;
 }
@@ -61,7 +61,7 @@ a:link {
 button {
   padding: 7px 1em;
   width: 120px;
-  background-color: #3882F6;
+  background-color: #000000;
   border-radius: 8px;
 }
 
@@ -70,9 +70,102 @@ button {
 }
 
 .image {
-  background-color: gray;
+  background-color: rgb(255, 0, 217);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 215px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 13em;
+  margin-top: 3em;
+}
+
+main h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3em 0 6em 0;
+}
+
+.card {
+  text-align: center;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+.square {
+  border: 4px solid #04ff00;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00ff48;
+  padding: 7em 13em;
+}
+
+.quote p {
+  align-self: flex-end;
+  font-weight: bolder;
+  font-size: 24px;
+  color: #ff00b3;
+}
+
+.quote em {
+  font-size: 36px;
+  font-weight: 100;
+  color: #ee00ff;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 13em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ff00f2;
+  padding: 3em;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container button {
+  border: 2px solid #FFF;
+}
+
+strong {
+  font-size: 24px;
+  color: rgb(0, 255, 251);
+}
+
+footer {
+  background-color: #ff0000;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
